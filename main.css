@@ -7,7 +7,7 @@ h1 {
 
   .positioned {
     position: static;
-    background-color: aquamarine;
+    background-color: rgb(195, 243, 227);
   }
   .footerDiv {
     position: fixed;
