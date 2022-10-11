@@ -1,0 +1,128 @@
+h1 {
+    position: static;
+    top: 100;
+    width: 500px;
+    padding: 10px;
+  }
+
+  .positioned {
+    position: static;
+    background-color: aquamarine;
+  }
+  .footerDiv {
+    position: fixed;
+    bottom: 5;
+  }
+  .mainDiv {
+    text-align: left;
+    padding-top: 2%;
+  }
+  
+  ul {
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .footerDiv {
+    padding-bottom: 1%;
+  }
+  
+  .col {
+    background: rgb(219, 100, 100);
+    border: 2px solid rgb(249, 245, 245);
+    align-items: left;
+    justify-content: left;
+    color: rgb(233, 172, 172);
+  }
+  
+  div .text-center {
+    justify-content: left;
+  }
+  
+  section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  .textSpan {
+    padding-top: 10px;
+  }
+  
+  .boxesDiv {
+    display:grid;
+  }
+  
+  #subheader3 {
+    position: absolute;
+  }
+  
+  #c1 {
+    border: 1px dotted rgb(230, 113, 230);
+    margin: 2px;
+    width: 10vw;
+    height: 10vh;
+  }
+  #c2 {
+    border: 5px solid rgb(226, 181, 138);
+    background-color: rgb(194, 237, 213);
+    margin: 50px;
+    width: 20vw;
+    height: 20vh;
+  }
+  #c3 {
+    border: 15px solid rgb(231, 150, 204);
+    background-color: rgb(228, 120, 120);
+    padding: 10px;
+    width: 20vw;
+    height: 20vh;
+  }
+  
+  #c4 {
+    border-radius: 1em;
+    background: rgb(231, 150, 204);
+    padding: 10px 20px 10px 20px;
+    margin: -20px;
+    width: 20vw;
+    height: 20vh;
+  }
+  
+  #c5 {
+    border: 5px solid rgb(226, 181, 138);
+    background-color: rgb(194, 237, 213);
+    margin: 50px;
+    width: 20vw;
+    height: 20vh;
+  }
+
+  #c6 {
+    border-radius: 1em;
+    background: rgb(231, 150, 204);
+    padding: 10px 20px 10px 20px;
+    margin: -20px;
+    width: 20vw;
+    height: 20vh;
+  }
+
+  #c7 {
+    border-radius: 5em;
+    background: rgb(231, 150, 204);
+    padding: 10px 20px 10px 20px;
+    margin: -20px;
+    width: 20vw;
+    height: 20vh;
+  }
+
+  #c8 {
+    border: 1px dotted rgb(230, 113, 230);
+    margin: 2px;
+    width: 10vw;
+    height: 10vh;
+  }
+
+  #c9 {
+    border: 5px solid rgb(226, 181, 138);
+    background-color: rgb(194, 237, 213);
+    margin: 50px;
+    width: 20vw;
+    height: 20vh;
+  }
