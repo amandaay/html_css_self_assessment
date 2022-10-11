@@ -1,8 +1,8 @@
 h1 {
     position: static;
     top: 100;
-    width: 500px;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .positioned {
@@ -10,11 +10,12 @@ h1 {
     background-color: rgb(195, 243, 227);
   }
   .footerDiv {
-    position: fixed;
-    bottom: 5;
+    position: static;
+    font-family: 'Montserrat', sans-serif;
   }
   .mainDiv {
     text-align: left;
+    padding-left: 50px;
     padding-top: 5%;
   }
   
@@ -24,7 +25,7 @@ h1 {
   }
   
   .footerDiv {
-    padding-bottom: 1%;
+    padding-bottom: 5%;
   }
   
   .col {
@@ -42,20 +43,21 @@ h1 {
   section {
     padding-top: 5%;
     padding-bottom: 5%;
+    font-family: 'Montserrat', sans-serif;
   }
   
   .textSpan {
-    padding-top: 10px;
-  }
-  
-  .boxesDiv {
-    display:grid;
+    padding-top: 30px;
   }
   
   #subheader3 {
     position: absolute;
   }
-  
+
+  .boxesDiv {
+    display: flex;
+    padding: 10px;
+  }
   #c1 {
     border: 1px dotted rgb(230, 113, 230);
     margin: 2px;
@@ -81,7 +83,7 @@ h1 {
     border-radius: 1em;
     background: rgb(231, 150, 204);
     padding: 10px 20px 10px 20px;
-    margin: -20px;
+    margin: 100px;
     width: 20vw;
     height: 20vh;
   }
